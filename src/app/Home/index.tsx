@@ -1,9 +1,13 @@
-import { Text, View } from "react-native";
+import { Image, Text, View } from "react-native";
+import { styles } from "./styles";
 
 export function Home() {
  return (
-  <View>
-    <Text>Aslap</Text>
+  <View style={styles.container}>
+    <Image 
+      style={styles.logo}
+      source={require("../../assets/logo.png")}
+    />
   </View>
  ) 
 }
