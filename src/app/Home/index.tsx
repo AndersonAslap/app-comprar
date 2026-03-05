@@ -1,4 +1,4 @@
-import { Image, Text, View } from "react-native";
+import { Image, View } from "react-native";
 import { styles } from "./styles";
 
 export function Home() {
@@ -6,7 +6,7 @@ export function Home() {
   <View style={styles.container}>
     <Image 
       style={styles.logo}
-      source={require("../../assets/logo.png")}
+      source={require("@/assets/logo.png")}
     />
   </View>
  ) 

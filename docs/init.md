@@ -44,3 +44,17 @@ ou
 
 npx expo start --tunnel
 ```
+
+> Configurar Path Alias
+
+- No arquivo de configuração do typescript (tsconfig.json) dentro do objeto CompilerOptions você cria um objeto chamado paths e configura.
+
+```json
+{
+    "compilerOptions": {
+        "paths": {
+            "@/*": ["./src/*"]
+        }
+    }
+}
+```
