@@ -58,3 +58,8 @@ npx expo start --tunnel
     }
 }
 ```
+
+> ScrollView vs FlatList
+
+-  **ScrollView:** renderiza todos os seus componentes filhos de reação de uma só vez, mas isso tem uma desvantagem de desempenho.
+- **FlatList:** renderiza itens lentamente, quando eles estão prestes a aparecer, e remove itens que rolam para fora da tela para economizar memória e tempo de  processamento.
